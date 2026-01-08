@@ -93,13 +93,14 @@ AFE-core/
 ## 📁 Estrutura do Repositório
 
 A estrutura do **AFE-Core** foi pensada para permitir múltiplas implementações (cores) em diferentes linguagens, mantendo um único padrão de integração.
+```
 AFE-core/
 ├─ docs/
 ├─ cores/
 ├─ sdks/
 ├─ examples/
 └─ README.md
-
+```
 
 ### 📂 `docs/` — Documentação oficial (normativa)
 
@@ -129,12 +130,13 @@ Cada subpasta representa um core funcional e independente, capaz de:
 - Gerir estados e respostas
 
 Exemplo:
+```
 cores/
 ├─ core-node/
 ├─ core-php/
 ├─ core-java/
 └─ core-dotnet/
-
+```
 
 👉 O comportamento funcional deve ser o mesmo em todos os cores.
 
@@ -150,11 +152,12 @@ Os SDKs:
 - Não comunicam com a AGT
 
 Exemplo:
+```
 sdks/
 ├─ php/
 ├─ javascript/
 └─ dotnet/
-
+```
 
 👉 O ERP nunca precisa lidar diretamente com a AGT.
 
@@ -170,11 +173,12 @@ Objetivo:
 - Servir como referência técnica
 
 Exemplo:
+```
 examples/
 └─ erp-integration/
 ├─ send-invoice.php
 └─ check-status.js
-
+```
 
 👉 Código demonstrativo, não recomendado para produção.
 
