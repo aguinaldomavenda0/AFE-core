@@ -90,6 +90,108 @@ AFE-core/
 }
 ```
 
+## 📁 Estrutura do Repositório
+
+A estrutura do **AFE-Core** foi pensada para permitir múltiplas implementações (cores) em diferentes linguagens, mantendo um único padrão de integração.
+AFE-core/
+├─ docs/
+├─ cores/
+├─ sdks/
+├─ examples/
+└─ README.md
+
+
+### 📂 `docs/` — Documentação oficial (normativa)
+
+Contém toda a documentação que **define o comportamento obrigatório** do AFE-Core.
+
+Tudo o que está nesta pasta é considerado **contrato oficial** do projeto e deve ser seguido por todos os cores, independentemente da linguagem.
+
+Inclui, entre outros:
+- Contrato JSON da API
+- Ciclo de vida dos documentos
+- Mapeamento técnico para a AGT
+- Regras fiscais e validações
+
+👉 Nenhum core deve divergir do que está definido aqui.
+
+---
+
+### 📂 `cores/` — Implementações do middleware
+
+Contém as **implementações completas do AFE-Core**, em diferentes linguagens.
+
+Cada subpasta representa um core funcional e independente, capaz de:
+- Receber documentos em JSON
+- Validar regras fiscais
+- Assinar documentos
+- Submeter à AGT
+- Gerir estados e respostas
+
+Exemplo:
+cores/
+├─ core-node/
+├─ core-php/
+├─ core-java/
+└─ core-dotnet/
+
+
+👉 O comportamento funcional deve ser o mesmo em todos os cores.
+
+---
+
+### 📂 `sdks/` — SDKs para produtores de software
+
+Contém SDKs leves para facilitar a integração de ERPs, POS e outros sistemas com o AFE-Core.
+
+Os SDKs:
+- Comunicam apenas com o Core
+- Não contêm regras fiscais
+- Não comunicam com a AGT
+
+Exemplo:
+sdks/
+├─ php/
+├─ javascript/
+└─ dotnet/
+
+
+👉 O ERP nunca precisa lidar diretamente com a AGT.
+
+---
+
+### 📂 `examples/` — Exemplos práticos de integração
+
+Inclui exemplos simples e didáticos de integração com o AFE-Core.
+
+Objetivo:
+- Ajudar novos produtores a começar rapidamente
+- Demonstrar fluxos reais (emissão, consulta, erros)
+- Servir como referência técnica
+
+Exemplo:
+examples/
+└─ erp-integration/
+├─ send-invoice.php
+└─ check-status.js
+
+
+👉 Código demonstrativo, não recomendado para produção.
+
+---
+
+### 📄 `README.md` — Apresentação do projeto
+
+Documento principal do repositório.
+
+Apresenta:
+- Visão e objetivos do projeto
+- Conceito do middleware
+- Estrutura geral
+- Como contribuir
+
+👉 Ponto de entrada para novos colaboradores.
+
 ---
 
 ## 📜 Licença
