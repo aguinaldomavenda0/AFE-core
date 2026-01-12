@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "testNIF": "node ./core/node-core/testes/testNIF.js"
+  "scripts": { 
+    "testCore": "node ./core/node-core/utils/core-functions.js",
+    "test": "node ./core/node-core/testes/test.js",
+    "testNIF": "node ./core/node-core/testes/testNIF.js",
+    "testSeries": "node ./core/node-core/testes/testListSeries.js"
   },
   "keywords": [],
   "author": "",

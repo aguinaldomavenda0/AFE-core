@@ -1,9 +1,10 @@
 import axios from 'axios';
 import 'dotenv/config';
+import  { gerarUUID } from '../utils/utils.js';
 
 async function consultarNIF() {
-  //const endpoint = 'https://sifphml.minfin.gov.ao/sigt/contribuinte/v5/obter';
-  const endpoint = 'https://sifp.minfin.gov.ao/sigt/contribuinte/consultarNIF/v5/obter';
+  const endpoint = 'https://sifphml.minfin.gov.ao/sigt/contribuinte/v5/obter';
+  //const endpoint = 'https://sifp.minfin.gov.ao/sigt/contribuinte/consultarNIF/v5/obter';
 
   const params = {
     tipoDocumento: 'NIF',          
@@ -19,10 +20,10 @@ async function consultarNIF() {
   };
 
   try {
-    const response = await axios.post(endpoint, {
+    const response = await axios.get(endpoint, {
       params,
       headers,
-      timeout: 150000
+      timeout: 1500000
     });
 
     console.log('Resposta da AGT:');
