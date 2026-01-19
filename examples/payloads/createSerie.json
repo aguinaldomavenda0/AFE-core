@@ -1,0 +1,19 @@
+{
+  "schemaVersion": "1.2",
+  "submissionUUID": "f86ebc1f-990b-4986-84da-626d6414d540",
+  "taxRegistrationNumber": "5001636863",
+  "submissionTimeStamp": "2026-01-14T15:30:44.439Z",
+  "softwareInfo": {
+    "softwareInfoDetail": {
+      "productId": "Meu ERP CERTO",
+      "productVersion": "1.0.1",
+      "softwareValidationNumber": "C_134"
+    },
+    "jwsSoftwareSignature": "eyJ0eXAiOiJKT1NFIiwiYWxnIjoiUlMyNTYifQ.eyJwcm9kdWN0SWQiOiJNZXUgRVJQIENFUlRPIiwicHJvZHVjdFZlcnNpb24iOiIxLjAuMSIsInNvZnR3YXJlVmFsaWRhdGlvbk51bWJlciI6IkNfMTM0In0.VE3zkvOJOpqBfz4wpx4KCgcwOGgzGUP3MSMbaHCDnHhwOaeA6jlccBW9HjgQvg2tYCVVq0imrU_z0grEHNthhG4xD3afSOD1_RzvHs8Tc45dvztHJzB4gF0CAX-yIDwi7XcHiMRY0vkXOETBeHKewg0ktWSnZ7SLf4GxGzE7ry2u_pmhqhCPhxpa0oGQ_rBJUYkEAFg1OwaqjwvzCFgdT11r-XsHmnkcfJX_ktj59RWR_zgbytiCRtwCK9LNUflveS5GzUaCXbPn2deQ3F2hPldLECEa_ahwoapoK1LhkgOAVyPLJf6M1Cm09Le7rkdSaWQSW5BI_sPx5YaUaXkeqg"
+  },
+  "seriesYear": "2026",
+  "documentType": "FT",
+  "establishmentNumber": "SEDE",
+  "jwsSignature": "eyJ0eXAiOiJKT1NFIiwiYWxnIjoiUlMyNTYifQ.eyJ0YXhSZWdpc3RyYXRpb25OdW1iZXIiOiI1MDAxNjM2ODYzIiwiZXN0YWJsaXNobWVudE51bWJlciI6IjEwIiwic2VyaWVzWWVhciI6IjIwMjYiLCJkb2N1bWVudFR5cGUiOiJGVCJ9.fsFm6yDHmF9wcjMWSFPy1byMqjqFgpFKAjZ_FCZJfDARM4cKBQUG_btX9i49BNW04EciwIOIEp5c0D-wwrQvSvMLEZLOiSVVnRF4y5IZrKgG_R310qWuo9UpfuRYzu2Xg0ozdnTM9SVmSPjLWdxloCl3tSa6QCGO_68L974Dwq0",
+  "seriesContingencyIndicator": "N"
+}

@@ -1,6 +1,7 @@
 import axios from 'axios';
 import 'dotenv/config';
 
+
 async function listarSeries() {
   //const endpoint = 'https://sif.minfin.gov.ao/sigt/fe/ws/v1/registarFactura';
   const endpoint = 'https://sifphml.minfin.gov.ao/sigt/fe/ws/v1/solicitarSerie';

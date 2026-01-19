@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.2",
+  "submissionUUID": "d6552254-46ef-4316-8b20-bab6bdb0a000",
+  "taxRegistrationNumber": "5001636863",
+  "submissionTimeStamp": "2026-01-14T16:42:41.835Z",
+  "softwareInfo": {
+    "softwareInfoDetail": {
+      "productId": "Meu ERP CERTO",
+      "productVersion": "1.0.1",
+      "softwareValidationNumber": "C_134"
+    },
+    "jwsSoftwareSignature": "eyJ0eXAiOiJKT1NFIiwiYWxnIjoiUlMyNTYifQ.eyJwcm9kdWN0SWQiOiJNZXUgRVJQIENFUlRPIiwicHJvZHVjdFZlcnNpb24iOiIxLjAuMSIsInNvZnR3YXJlVmFsaWRhdGlvbk51bWJlciI6IkNfMTM0In0.VE3zkvOJOpqBfz4wpx4KCgcwOGgzGUP3MSMbaHCDnHhwOaeA6jlccBW9HjgQvg2tYCVVq0imrU_z0grEHNthhG4xD3afSOD1_RzvHs8Tc45dvztHJzB4gF0CAX-yIDwi7XcHiMRY0vkXOETBeHKewg0ktWSnZ7SLf4GxGzE7ry2u_pmhqhCPhxpa0oGQ_rBJUYkEAFg1OwaqjwvzCFgdT11r-XsHmnkcfJX_ktj59RWR_zgbytiCRtwCK9LNUflveS5GzUaCXbPn2deQ3F2hPldLECEa_ahwoapoK1LhkgOAVyPLJf6M1Cm09Le7rkdSaWQSW5BI_sPx5YaUaXkeqg"
+  },
+  "requestID": "202600000104359"
+}
